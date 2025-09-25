@@ -1,0 +1,7 @@
+ #----------------------------------------------------------------------------
+# Ignore these files when commiting to a git repository
+#----------------------------------------------------------------------------
+
+node_modules/**
+package-lock.json
+yarn.lock

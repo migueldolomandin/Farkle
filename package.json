@@ -1,0 +1,26 @@
+{
+  "name": "templateforv2-static",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "mocha specs/**/*_spec.js --require mocha-suppress-logs",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "chai": "^4.3.7",
+    "esm": "^3.2.25",
+    "mocha": "^9.2.2",
+    "node-fetch": "^3.2.6",
+    "readline-sync": "^1.4.10",
+    "sinon": "^15.0.4"
+  },
+  "devDependencies": {
+    "mocha-suppress-logs": "^0.3.1"
+  }
+}
